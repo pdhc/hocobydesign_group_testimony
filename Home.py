@@ -30,11 +30,11 @@ with expander1:
     with hcca:
         st.image("groups/hcca.jpg")
     with tpv:
-        st.image("groups/tpv.png")
+        st.image("groups/pdhc.jpeg")
     st.write('---')
     pdhc,orhoco = st.columns(2)
     with pdhc:
-        st.image("groups/pdhc.jpeg")
+        st.image("groups/tpv.png")
 
     st.write('---')
         
