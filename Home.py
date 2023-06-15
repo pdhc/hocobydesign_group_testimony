@@ -32,9 +32,11 @@ with expander1:
     with tpv:
         st.image("groups/pdhc.jpeg")
     st.write('---')
-    pdhc,orhoco = st.columns(2)
+    pdhc,sca = st.columns(2)
     with pdhc:
         st.image("groups/tpv.png")
+    with pdhc:
+        st.image("groups/sca.jpg")
 
     st.write('---')
         
