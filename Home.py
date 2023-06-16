@@ -26,17 +26,21 @@ expander1 = st.expander("**Community Organizations Supporting Testimony**")
 
 with expander1:
     st.write('---')
-    hcca,tpv = st.columns(2)
+    hcca,n4b = st.columns(2)
     with hcca:
         st.image("groups/hcca.jpg")
-    with tpv:
-        st.image("groups/pdhc.jpeg")
+    with n4b:
+        st.image("groups/n4b.jpeg")
     st.write('---')
     pdhc,sca = st.columns(2)
     with pdhc:
-        st.image("groups/tpv.png")
+        st.image("groups/pdhc.jpg")
     with sca:
         st.image("groups/sca.jpg")
+    st.write('---')
+    tpv,sca = st.columns(2)
+    with tpv:
+        st.image("groups/tpv.png")
 
     st.write('---')
         
