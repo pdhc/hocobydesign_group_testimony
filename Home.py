@@ -34,7 +34,7 @@ with expander1:
     st.write('---')
     pdhc,sca = st.columns(2)
     with pdhc:
-        st.image("groups/pdhc.jpg")
+        st.image("groups/pdhc.jpeg")
     with sca:
         st.image("groups/sca.jpg")
     st.write('---')
