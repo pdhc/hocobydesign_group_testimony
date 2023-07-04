@@ -48,6 +48,9 @@ with tpv:
 with ionhoco:
     st.image("groups/ionhoco.jpeg")
 st.write('---')
+orhoco,ionhoco = st.columns(2)
+with orhoco:
+    st.image("groups/orhoco.png")
 
 # Use Local CSS File
 def local_css(file_name):
