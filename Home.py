@@ -50,7 +50,7 @@ with ionhoco:
 st.write('---')
 orhoco,ionhoco = st.columns(2)
 with orhoco:
-    st.image("groups/orhoco.png")
+    st.image("groups/orhoco.jpeg")
 
 # Use Local CSS File
 def local_css(file_name):
