@@ -48,9 +48,11 @@ with tpv:
 with ionhoco:
     st.image("groups/ionhoco.jpeg")
 st.write('---')
-orhoco,ionhoco = st.columns(2)
+orhoco,capa = st.columns(2)
 with orhoco:
     st.image("groups/orhoco.jpeg")
+with capa:
+    st.image("groups/capa-hc.jpeg")
 
 # Use Local CSS File
 def local_css(file_name):
