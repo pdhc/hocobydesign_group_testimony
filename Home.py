@@ -11,20 +11,6 @@ The following organizations and groups are signatories to the following testimon
 like to sign on to this testimony may send info with a point of contact here.
 """)
             
-st.header(":mailbox: Send group affiliation and contact info here.")
-
-contact_form = """
-<form action="https://formsubmit.co/progressivedemsofhoco@gmail.com" method="POST">
-     <input type="hidden" name="_captcha" value="false">
-     <input type="text" name="name" placeholder="Your name" required>
-     <input type="email" name="email" placeholder="Your email" required>
-     <textarea name="message" placeholder="Your message here"></textarea>
-     <button type="submit">Send</button>
-</form>
-"""
-
-st.markdown(contact_form, unsafe_allow_html=True)
-
 st.write('----')
 
 st.header("Community Organizations Supporting Testimony")
@@ -53,6 +39,20 @@ with orhoco:
     st.image("groups/orhoco.jpeg")
 with capa:
     st.image("groups/capa-hc.jpeg")
+
+st.header(":mailbox: Send group affiliation and contact info here.")
+
+contact_form = """
+<form action="https://formsubmit.co/progressivedemsofhoco@gmail.com" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required>
+     <input type="email" name="email" placeholder="Your email" required>
+     <textarea name="message" placeholder="Your message here"></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+
+st.markdown(contact_form, unsafe_allow_html=True)
 
 # Use Local CSS File
 def local_css(file_name):
