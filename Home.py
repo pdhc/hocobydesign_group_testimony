@@ -15,7 +15,6 @@ st.write('----')
 
 st.header("Community Organizations Supporting Testimony")
 
-st.write('---')
 hcca,n4b = st.columns(2)
 with hcca:
     st.image("groups/hcca.jpg")
@@ -39,6 +38,8 @@ with orhoco:
     st.image("groups/orhoco.jpeg")
 with capa:
     st.image("groups/capa-hc.jpeg")
+
+st.write('---')
 
 st.header(":mailbox: Send group affiliation and contact info here.")
 
