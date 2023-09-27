@@ -1,4 +1,4 @@
 matplotlib
-pygwalker
+pygwalker = 0.3.7
 pandas
 streamlit
