@@ -1,1 +1,3 @@
 matplotlib
+pygwalker
+pandas
