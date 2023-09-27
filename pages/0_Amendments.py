@@ -5,16 +5,20 @@ import pygwalker as pyg
 import numpy as np
 import modules.config as config
 
+st.set_page_config(
+    page_title="HOCO BY DESIGN AMENDMENTS",
+    layout="wide"
+)
 
-st.markdown(""" # HOCO BY DESIGN AMENDMENTS
+# st.markdown(""" # HOCO BY DESIGN AMENDMENTS
     
-    """)
+#     """)
 
 df = pd.read_csv(config.url)
 conditions = [(df['Impact']=='None'), (df['Impact']!='None')]
 values = ['No', 'Yes']
 df['Substantive'] = np.select(conditions, values)
-st.dataframe(df, use_container_width=True)
+# st.dataframe(df, use_container_width=True)
 
 
 # Generate the HTML using Pygwalker
