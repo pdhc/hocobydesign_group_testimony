@@ -15,7 +15,7 @@ st.set_page_config(
 #     """)
 
 df = pd.read_csv(config.url)
-conditions = [(df['Impact']=='None'), (df['Impact']!='None')]
+conditions = [(df['Impact']=='No Impact'), (df['Impact']!='No Impact')]
 values = ['No', 'Yes']
 df['Substantive'] = np.select(conditions, values)
 # st.dataframe(df, use_container_width=True)
