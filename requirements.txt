@@ -1,4 +1,4 @@
 matplotlib
-pygwalker = 0.3.7
+pygwalker == 0.3.7
 pandas
-streamlit = 1.27.0
+streamlit == 1.27.0
