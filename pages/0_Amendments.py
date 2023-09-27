@@ -3,8 +3,7 @@ import streamlit as st
 import pandas as pd
 import pygwalker as pyg
 import numpy as np
-import pages.config as config
-import modules.functions as fun
+import modules.config as config
 
 
 st.markdown(""" # HOCO BY DESIGN AMENDMENTS
